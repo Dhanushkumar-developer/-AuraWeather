@@ -1,0 +1,61 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+background: linear-gradient(
+135deg,
+#0f172a,
+#312e81,
+#7c3aed
+);
+}
+
+.weather-card{
+
+width:700px;
+max-width:90%;
+margin:0 auto;
+
+padding:30px;
+
+border-radius:25px;
+
+background: rgba(255,255,255,0.12);
+border: 1px solid rgba(255,255,255,0.18);
+backdrop-filter: blur(25px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+
+color:white;
+}
+
+.logo{
+text-align:center;
+margin-bottom:30px;
+}
+
+.weather-info img{
+margin-bottom:15px;
+}
+
+#temp{
+font-size:80px;
+font-weight:bold;
+}
+
+.input-group input{
+height:55px;
+}
+
+.btn{
+width:120px;
+}
